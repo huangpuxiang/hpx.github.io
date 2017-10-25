@@ -18,21 +18,16 @@ Product的模型实例对应products数据库表名
 Product的模型实例属性对应products数据库的字段
 
 ## 4 CRUD:读写数据
-对数据库进行增删查改
-
-* 增（新建对象）：new、create，new需要save才能保存对象,create会调用数据验证
-* 删（删除对象）：destroy、delete
-* 查（查找记录）：find、find_by、select、where
-* 改（修改记录）：update、save,二者都会调用数据验证
-
-Active Record 对象可以使用散列创建，在块中创建，或者创建后手动设置属性。
+* 增（新建对象create）：new、create，new需要save才能保存对象,create=new+save，对象可以使用散列创建，在块中创建，或者创建后手动设置属性。
+* 删（删除对象destroy）：destroy、delete。
+* 查（查找记录read）：find、find_by、select、where。
+* 改（修改记录update）：update、save,二者都会调用数据验证。
 
 ## 5 数据验证
-数据存入数据库之前会进行验证，以确保其合法性。
-save、create、update都会调用数据验证的方法
+数据存入数据库之前会进行验证，以确保其合法性，save、create、update都会调用数据验证的方法。
 
 ## 6 回调
-暂时不懂
+_暂时不懂_
 
 ## 7 迁移
-每一次迁移都是对数据库的验证。
+每一次迁移都是对数据库的一次修订。
