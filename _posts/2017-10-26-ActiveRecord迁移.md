@@ -20,10 +20,10 @@ Product的模型实例属性对应products数据库的字段
 ## 4 CRUD:读写数据
 对数据库进行增删查改
 
--增（新建对象）：new、create，new需要save才能保存对象,create会调用数据验证
--删（删除对象）：destroy、delete
--查（查找记录）：find、find_by、select、where
--改（修改记录）：update、save,二者都会调用数据验证
+*增（新建对象）：new、create，new需要save才能保存对象,create会调用数据验证
+*删（删除对象）：destroy、delete
+*查（查找记录）：find、find_by、select、where
+*改（修改记录）：update、save,二者都会调用数据验证
 
 Active Record 对象可以使用散列创建，在块中创建，或者创建后手动设置属性。
 
