@@ -1,5 +1,3 @@
-# Active Record 基础
-
 ## 1 Active Record是什么？
 Active Record是MVC中的model，是一种关系对象映射系统ORM(object relation mapping),模型实例与数据库是对应的。
 
