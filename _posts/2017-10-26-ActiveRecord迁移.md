@@ -11,8 +11,8 @@ Active Record是MVC中的model，是一种关系对象映射系统ORM(object rel
 
 ## 3 创建Active Record
 只需要继承ApplicationRecord就行
-class Product < ApplicationRecord
-end 
+> class Product < ApplicationRecord
+> end 
 
 Product的模型实例对应products数据库表名
 Product的模型实例属性对应products数据库的字段
